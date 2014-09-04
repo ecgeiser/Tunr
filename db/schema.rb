@@ -43,14 +43,4 @@ ActiveRecord::Schema.define(version: 20140904192741) do
     t.datetime "updated_at"
   end
 
-  create_table "users", force: true do |t|
-    t.string   "name"
-    t.string   "email",           null: false
-    t.string   "password_digest", null: false
-    t.boolean  "admin?"
-    t.float    "balance"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
 end
